@@ -16,3 +16,15 @@
     display: flex;
     justify-content: center;
 }
+
+.img2:hover {
+    transform: skewX(40deg);
+}
+
+.img2:active {
+    transform: translateX(200px);
+}
+
+p {
+    transform: scale(0.5) rotate(45deg) skewY(10deg) translateY(20px);
+}
