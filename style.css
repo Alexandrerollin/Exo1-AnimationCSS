@@ -1,0 +1,14 @@
+.divimg {
+    display: flex;
+    justify-content: center;
+}
+
+
+img:hover {
+    transform: scale(2, 2);
+}
+
+img:active {
+ transform: rotate(0.5turn);   
+ /* transform: rotate(180deg);  */
+}
